@@ -1,0 +1,9 @@
+C:\Users\Marko\source\repos\ActivityTracker\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+C:\Users\Marko\source\repos\ActivityTracker\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\Marko\source\repos\ActivityTracker\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\Marko\source\repos\ActivityTracker\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\Marko\source\repos\ActivityTracker\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+C:\Users\Marko\source\repos\ActivityTracker\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Marko\source\repos\ActivityTracker\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\Marko\source\repos\ActivityTracker\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\Marko\source\repos\ActivityTracker\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache

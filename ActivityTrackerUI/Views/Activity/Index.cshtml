@@ -1,0 +1,37 @@
+﻿@model ActivityTrackerUI.ViewModels.ActivityViewModel
+
+    <div class="row">
+        <div class="col-12">
+            <div class="activity-form-holder">
+                <div class="activity-form-item">
+                    <input placeholder="What is your name?" id="userNameInput" />
+                </div>
+                <div class="activity-form-item">
+                    <label class="activity-form-item-label">What did you do?</label>
+                    <br />
+                    <select id="activityOptionId">
+                        @foreach (var item in Model.ActivityOptions)
+                        {
+                            <option value="@item.Id">@item.Description.ToUpper()</option>
+                        }
+                    </select>
+                </div>
+                <div class="activity-form-item">
+                    <input type="submit" value="Report activity" id="sendButton" />
+                </div>
+
+            </div>
+            <ul id="activitiesList">
+                @foreach (var item in Model.Activities)
+                {
+                    <li class="activity-item">
+                        <img src="@item.ActivityOption.Flag" />
+                        <p class="activity-item-text"><b>@item.UserName</b> @item.ActivityOption.Description</p>
+                        <span>You should do it too, its good for you!</span>
+                    </li>
+                }
+            </ul>
+        </div>
+            
+        
+    </div>
